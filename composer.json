@@ -1,0 +1,15 @@
+{
+    "name" : "anax/noname",
+    "description": "A me page for the design course.",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Anax\\": "src/"}
+    },
+    "require": {
+        "anax/anax-design-me": "^1.0.8",
+        "mos/cimage": "^0.7.20",
+        "anax/anax-flat": "^1.1"
+    }
+}
