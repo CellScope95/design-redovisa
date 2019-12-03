@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,19 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
-Om
+Om kursen.
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Innehållet nedan kan ändras i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+I den här kursen, _Teknisk webbdesign och användbarhet_, så går vi t ex igenom hur man får en bra struktur på en webbsida genom att använda ett _framework_ för att skapa sidor från enklare innehåller som vi skriver i t ex _Markdown_.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Github-repot till denna kurs hittas [här](https://github.com/dbwebb-se/design).
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+Github-repot till min me-sida hittas [här](https://github.com/CellScope95/design-redovisa).
+
+[FIGURE src=image/mac-1998.jpg?w=500 caption="Den här Macen från 1998 kan också användas för att titta på väldesignade webbsidor med!"]
